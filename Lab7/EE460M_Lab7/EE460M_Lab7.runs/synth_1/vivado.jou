@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Fri Apr 27 13:22:34 2018
+# Process ID: 5016
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7/EE460M_Lab7.runs/synth_1
+# Command line: vivado.exe -log Complete_MIPS.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source Complete_MIPS.tcl
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7/EE460M_Lab7.runs/synth_1/Complete_MIPS.vds
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7/EE460M_Lab7.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source Complete_MIPS.tcl -notrace

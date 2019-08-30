@@ -1,0 +1,52 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 23 19:50:30 2018
+# Process ID: 1972
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7472 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\Lab2\L2_P3\460M_L1_P3.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.xpr}
+INFO: [Project 1-313] Project file moved from 'C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+update_compile_order -fileset sources_1
+update_compile_order -fileset sim_1
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v" into library work [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v:1]
+[Fri Feb 23 19:57:47 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v" into library work [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v:1]
+[Fri Feb 23 19:59:31 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v" into library work [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v:1]
+[Fri Feb 23 20:00:47 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+INFO: [HDL 9-2216] Analyzing Verilog file "C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v" into library work [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.srcs/sources_1/new/Lab1_P3.v:1]
+[Fri Feb 23 20:03:35 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/synth_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Feb 23 20:05:00 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Feb 23 20:05:59 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/synth_1/runme.log
+[Fri Feb 23 20:05:59 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2_P3/460M_L1_P3.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 23 20:10:44 2018...

@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Wed Jun 26 15:12:34 2019
+# Process ID: 6528
+# Current directory: D:/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent26756 D:\UT\SPRING 2018\EE 460M\Lab7\EE460M_Lab7\EE460M_Lab7.xpr
+# Log file: D:/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7/vivado.log
+# Journal file: D:/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {D:/UT/SPRING 2018/EE 460M/Lab7/EE460M_Lab7/EE460M_Lab7.xpr}
+update_compile_order -fileset sources_1

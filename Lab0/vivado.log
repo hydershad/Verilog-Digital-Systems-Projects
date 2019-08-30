@@ -1,0 +1,46 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 05 19:23:41 2018
+# Process ID: 4324
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9488 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\EE460M_Lab_0.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7a35tcpg236-1
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc:7]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc:7]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc:8]
+CRITICAL WARNING: [Common 17-55] 'set_property' expects at least one object. [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc:8]
+Resolution: If [get_<value>] was used to populate the object, check to make sure this command returns at least one valid object.
+WARNING: [Vivado 12-584] No ports matched 'clk'. [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc:9]
+CRITICAL WARNING: [Vivado 12-4739] create_clock:No valid object(s) found for '-objects [get_ports clk]'. [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc:9]
+Resolution: Check if the specified object(s) exists in the current design. If it does, ensure that the correct design hierarchy was specified for the object. If you are working with clocks, make sure create_clock was used to create the clock object before it is referenced.
+Finished Parsing XDC File [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:13 ; elapsed = 00:00:08 . Memory (MB): peak = 1044.555 ; gain = 279.746
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'Co'; it is not accessible from the fabric routing.
+CRITICAL WARNING: [Chipscope 16-3] Cannot debug net 'Co'; it is not accessible from the fabric routing.
+exit
+INFO: [Common 17-206] Exiting Vivado at Mon Feb 05 19:25:11 2018...

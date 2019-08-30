@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Tue Apr 24 12:52:09 2018
+# Process ID: 15700
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab6/EE460M_Lab6/EE460M_Lab6.runs/impl_1
+# Command line: vivado.exe -log tracker.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source tracker.tcl -notrace
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab6/EE460M_Lab6/EE460M_Lab6.runs/impl_1/tracker.vdi
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab6/EE460M_Lab6/EE460M_Lab6.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source tracker.tcl -notrace

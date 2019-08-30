@@ -1,0 +1,44 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Feb 16 12:33:26 2018
+# Process ID: 18320
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent3580 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\Lab1\Lab1_P3\460M_L1_P3.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+open_project: Time (s): cpu = 00:00:13 ; elapsed = 00:00:22 . Memory (MB): peak = 757.145 ; gain = 121.430
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Fri Feb 16 12:38:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.runs/impl_1/runme.log
+open_run impl_1
+INFO: [Netlist 29-17] Analyzing 9 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2016.4
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/.Xil/Vivado-18320-DESKTOP-DCD94MV/dcp/Subtractor4bit.xdc]
+Finished Parsing XDC File [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/.Xil/Vivado-18320-DESKTOP-DCD94MV/dcp/Subtractor4bit.xdc]
+Reading XDEF placement.
+Reading placer database...
+Reading XDEF routing.
+Read XDEF File: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 948.375 ; gain = 0.016
+Restored from archive | CPU: 0.000000 secs | Memory: 0.000000 MB |
+Finished XDEF File Restore: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.030 . Memory (MB): peak = 948.375 ; gain = 0.016
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:14 ; elapsed = 00:00:09 . Memory (MB): peak = 1066.324 ; gain = 294.605
+WARNING: [Timing 38-313] There are no user specified timing constraints. Timing constraints are needed for proper timing analysis.
+exit
+INFO: [Common 17-206] Exiting Vivado at Fri Feb 16 12:46:14 2018...

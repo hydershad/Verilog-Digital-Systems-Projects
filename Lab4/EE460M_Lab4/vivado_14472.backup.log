@@ -1,0 +1,511 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Sun Mar 18 17:48:42 2018
+# Process ID: 14472
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent1592 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\EE460M_Lab4\EE460M_Lab4.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+open_project: Time (s): cpu = 00:00:14 ; elapsed = 00:00:26 . Memory (MB): peak = 713.781 ; gain = 91.973
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 17:53:08 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 17:53:08 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 17:53:36 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 17:53:36 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+WARNING: [Vivado 12-872] Run step 'Design Initialization' is out-of-date.
+[Sun Mar 18 17:58:07 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:00:19 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:00:19 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:00:44 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:00:44 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:02:25 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:02:25 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:40:03 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:40:03 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:43:14 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:43:14 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:45:51 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:45:51 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:48:24 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:48:24 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:52:11 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:52:11 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 18:57:42 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 18:57:42 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 19:08:45 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 19:08:45 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 19:09:09 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 19:09:09 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 19:14:16 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 19:14:16 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 19:20:33 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 19:20:33 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 19:38:45 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 19:38:45 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 20:45:51 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 20:45:51 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 20:51:32 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 20:51:32 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+close_hw
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 21:59:43 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 21:59:43 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 22:02:47 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 22:02:47 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 22:03:41 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 22:03:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 22:05:24 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 22:05:24 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 22:16:27 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 22:16:27 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+close_hw
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 22:18:52 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 22:18:52 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sun Mar 18 22:19:47 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sun Mar 18 22:21:29 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs synth_1 -jobs 2
+[Sun Mar 18 22:23:42 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 22:25:23 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 22:25:23 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1435] Device xc7a35t (JTAG device index = 0) is not programmed (DONE status = 0).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+close_hw
+close_hw: Time (s): cpu = 00:00:05 ; elapsed = 00:00:06 . Memory (MB): peak = 1467.250 ; gain = 0.000
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+[Sun Mar 18 23:09:41 2018] Launched synth_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/synth_1/runme.log
+[Sun Mar 18 23:09:41 2018] Launched impl_1...
+Run output will be captured here: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/runme.log
+open_hw
+connect_hw_server
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2017.4
+  **** Build date : Dec 15 2017-21:08:27
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210183794892A
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+current_hw_device [get_hw_devices xc7a35t_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+set_property PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xc7a35t_0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab4/EE460M_Lab4.runs/impl_1/park_meter.bit} [get_hw_devices xc7a35t_0]
+program_hw_devices [get_hw_devices xc7a35t_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+INFO: [Labtools 27-1434] Device xc7a35t (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+exit
+INFO: [Common 17-206] Exiting Vivado at Sun Mar 18 23:13:58 2018...

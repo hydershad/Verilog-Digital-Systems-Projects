@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Fri Mar 02 19:54:36 2018
+# Process ID: 20164
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1
+# Command line: vivado.exe -log traffic_FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source traffic_FSM.tcl
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1/traffic_FSM.vds
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source traffic_FSM.tcl -notrace

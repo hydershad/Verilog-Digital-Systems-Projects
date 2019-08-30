@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 05 19:19:52 2018
+# Process ID: 5764
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.runs/impl_1
+# Command line: vivado.exe -log Adder4.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source Adder4.tcl -notrace
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.runs/impl_1/Adder4.vdi
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source Adder4.tcl -notrace

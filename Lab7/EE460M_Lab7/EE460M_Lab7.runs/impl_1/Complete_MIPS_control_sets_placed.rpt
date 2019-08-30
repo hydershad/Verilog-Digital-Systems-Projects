@@ -1,0 +1,102 @@
+Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2017.4 (win64) Build 2086221 Fri Dec 15 20:55:39 MST 2017
+| Date         : Fri Apr 27 13:24:24 2018
+| Host         : DESKTOP-DCD94MV running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file Complete_MIPS_control_sets_placed.rpt
+| Design       : Complete_MIPS
+| Device       : xc7a35t
+------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Flip-Flop Distribution
+3. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Number of unique control sets                            |    39 |
+| Unused register locations in slices containing registers |    23 |
++----------------------------------------------------------+-------+
+
+
+2. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              70 |           27 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |              26 |            7 |
+| Yes          | No                    | No                     |            1106 |          449 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |               7 |            3 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+3. Detailed Control Set Information
+-----------------------------------
+
++----------------+----------------------------------+------------------+------------------+----------------+
+|  Clock Signal  |           Enable Signal          | Set/Reset Signal | Slice Load Count | Bel Load Count |
++----------------+----------------------------------+------------------+------------------+----------------+
+|  clk_IBUF_BUFG |                                  |                  |                1 |              2 |
+|  CLK_BUFG      | CPU/Register/E[0]                | RST_IBUF         |                3 |              7 |
+|  CLK_BUFG      | CPU/opsave[5]_i_1_n_0            |                  |                3 |              8 |
+|  clk_IBUF_BUFG |                                  | div1/c           |                7 |             26 |
+|  CLK_BUFG      | CPU/alu_result_save[31]_i_1_n_0  |                  |               25 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[9][31]_i_1_n_0  |                  |               19 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[15][31]_i_1_n_0 |                  |                9 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[16][31]_i_1_n_0 |                  |               19 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[21][31]_i_1_n_0 |                  |               15 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[17][31]_i_1_n_0 |                  |                8 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[20][31]_i_1_n_0 |                  |               11 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[23][31]_i_1_n_0 |                  |               17 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[26][31]_i_1_n_0 |                  |               14 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[28][31]_i_1_n_0 |                  |               12 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[29][31]_i_1_n_0 |                  |               11 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[10][31]_i_1_n_0 |                  |               20 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[14][31]_i_1_n_0 |                  |               11 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[30][31]_i_1_n_0 |                  |               11 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[24][31]_i_1_n_0 |                  |               19 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[31][31]_i_1_n_0 |                  |               20 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[11][31]_i_1_n_0 |                  |               12 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[3][31]_i_1_n_0  |                  |               10 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[5][31]_i_1_n_0  |                  |               13 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[6][31]_i_1_n_0  |                  |                9 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[7][31]_i_1_n_0  |                  |               18 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[8][31]_i_1_n_0  |                  |               11 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[18][31]_i_1_n_0 |                  |                7 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[12][31]_i_1_n_0 |                  |               10 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[0][31]_i_1_n_0  |                  |               20 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[19][31]_i_1_n_0 |                  |               10 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[13][31]_i_1_n_0 |                  |                8 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[2][31]_i_1_n_0  |                  |                7 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[22][31]_i_1_n_0 |                  |                9 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[25][31]_i_1_n_0 |                  |               14 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[27][31]_i_1_n_0 |                  |                8 |             32 |
+|  CLK_BUFG      | CPU/Register/REG[4][31]_i_1_n_0  |                  |               10 |             32 |
+|  CLK_BUFG      | CPU/instr[31]_i_1_n_0            |                  |               14 |             34 |
+|  CLK_BUFG      | CPU/Register/REG[1][31]_i_1_n_0  |                  |               15 |             40 |
+|  CLK_BUFG      |                                  |                  |               26 |             68 |
++----------------+----------------------------------+------------------+------------------+----------------+
+
+
++--------+-----------------------+
+| Fanout | Number of ControlSets |
++--------+-----------------------+
+| 2      |                     1 |
+| 7      |                     1 |
+| 8      |                     1 |
+| 16+    |                    36 |
++--------+-----------------------+
+
+

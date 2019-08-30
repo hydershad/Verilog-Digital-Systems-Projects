@@ -1,0 +1,20 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 27 23:54:20 2018
+# Process ID: 436
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent7272 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\Lab2\L2 Vivado\EE460M_L2_P3.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado/EE460M_L2_P3.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2016.4/data/ip'.
+exit
+INFO: [Common 17-206] Exiting Vivado at Tue Feb 27 23:57:55 2018...

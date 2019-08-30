@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Apr  9 21:46:13 2018
+# Process ID: 14256
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab5/EE460M_Lab5/EE460M_Lab5.runs/synth_1
+# Command line: vivado.exe -log main.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source main.tcl
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab5/EE460M_Lab5/EE460M_Lab5.runs/synth_1/main.vds
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab5/EE460M_Lab5/EE460M_Lab5.runs/synth_1\vivado.jou
+#-----------------------------------------------------------
+source main.tcl -notrace

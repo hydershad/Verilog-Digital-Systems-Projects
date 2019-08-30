@@ -1,0 +1,34 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Tue Feb 20 13:02:36 2018
+# Process ID: 8984
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent5868 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\Lab1\Lab1_P3\460M_L1_P3.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.xpr}
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 2
+wait_on_run impl_1
+open_hw
+connect_hw_server
+open_hw_target
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.runs/impl_1/Subtractor4bit.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+current_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.runs/impl_1/Subtractor4bit.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.runs/impl_1/Subtractor4bit.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROBES.FILE {} [lindex [get_hw_devices xc7a35t_0] 0]
+set_property PROGRAM.FILE {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab1/Lab1_P3/460M_L1_P3.runs/impl_1/Subtractor4bit.bit} [lindex [get_hw_devices xc7a35t_0] 0]
+program_hw_devices [lindex [get_hw_devices xc7a35t_0] 0]
+refresh_hw_device [lindex [get_hw_devices xc7a35t_0] 0]

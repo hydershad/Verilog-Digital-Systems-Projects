@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 26 21:40:12 2018
+# Process ID: 12860
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado/EE460M_L2_P3.runs/impl_1
+# Command line: vivado.exe -log singleBCD.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source singleBCD.tcl -notrace
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado/EE460M_L2_P3.runs/impl_1/singleBCD.vdi
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab2/L2 Vivado/EE460M_L2_P3.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source singleBCD.tcl -notrace

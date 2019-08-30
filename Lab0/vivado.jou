@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2016.4 (64-bit)
+# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
+# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
+# Start of session at: Mon Feb 05 19:23:41 2018
+# Process ID: 4324
+# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent9488 C:\Users\Hyder\Documents\UT\SPRING 2018\EE 460M\EE460M_Lab_0.xpr
+# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/vivado.log
+# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/EE460M_Lab_0.xpr}
+open_run synth_1 -name synth_1
