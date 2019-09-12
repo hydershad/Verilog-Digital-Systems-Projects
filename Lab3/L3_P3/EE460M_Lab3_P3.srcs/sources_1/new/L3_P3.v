@@ -152,9 +152,6 @@ end
 
 end //end pos halfsecond 
 
-
-
-
 endmodule
 
 

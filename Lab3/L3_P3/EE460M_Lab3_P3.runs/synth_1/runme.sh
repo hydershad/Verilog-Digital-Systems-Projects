@@ -3,7 +3,7 @@
 # 
 # Vivado(TM)
 # runme.sh: a Vivado-generated Runs Script for UNIX
-# Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+# Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 # 
 
 echo "This script was generated under a different operating system."
@@ -11,9 +11,9 @@ echo "Please update the PATH and LD_LIBRARY_PATH variables below, before executi
 exit
 
 if [ -z "$PATH" ]; then
-  PATH=C:/Xilinx/Vivado/2016.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2016.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2016.4/bin
+  PATH=D:/Xilinx_Vivado/SDK/2019.1/bin;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/bin/nt64;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/lib/nt64:D:/Xilinx_Vivado/Vivado/2019.1/bin
 else
-  PATH=C:/Xilinx/Vivado/2016.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2016.4/ids_lite/ISE/lib/nt64:C:/Xilinx/Vivado/2016.4/bin:$PATH
+  PATH=D:/Xilinx_Vivado/SDK/2019.1/bin;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/bin/nt64;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/lib/nt64:D:/Xilinx_Vivado/Vivado/2019.1/bin:$PATH
 fi
 export PATH
 
@@ -24,7 +24,7 @@ else
 fi
 export LD_LIBRARY_PATH
 
-HD_PWD='C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1'
+HD_PWD='D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1'
 cd "$HD_PWD"
 
 HD_LOG=runme.log

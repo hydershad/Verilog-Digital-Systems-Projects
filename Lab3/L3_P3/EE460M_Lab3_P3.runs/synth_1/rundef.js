@@ -1,16 +1,16 @@
 //
 // Vivado(TM)
 // rundef.js: a Vivado-generated Runs Script for WSH 5.1/5.6
-// Copyright 1986-2016 Xilinx, Inc. All Rights Reserved.
+// Copyright 1986-2019 Xilinx, Inc. All Rights Reserved.
 //
 
 var WshShell = new ActiveXObject( "WScript.Shell" );
 var ProcEnv = WshShell.Environment( "Process" );
 var PathVal = ProcEnv("PATH");
 if ( PathVal.length == 0 ) {
-  PathVal = "C:/Xilinx/Vivado/2016.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2016.4/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado/2016.4/bin;";
+  PathVal = "D:/Xilinx_Vivado/SDK/2019.1/bin;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/bin/nt64;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/lib/nt64;D:/Xilinx_Vivado/Vivado/2019.1/bin;";
 } else {
-  PathVal = "C:/Xilinx/Vivado/2016.4/ids_lite/ISE/bin/nt64;C:/Xilinx/Vivado/2016.4/ids_lite/ISE/lib/nt64;C:/Xilinx/Vivado/2016.4/bin;" + PathVal;
+  PathVal = "D:/Xilinx_Vivado/SDK/2019.1/bin;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/bin/nt64;D:/Xilinx_Vivado/Vivado/2019.1/ids_lite/ISE/lib/nt64;D:/Xilinx_Vivado/Vivado/2019.1/bin;" + PathVal;
 }
 
 ProcEnv("PATH") = PathVal;

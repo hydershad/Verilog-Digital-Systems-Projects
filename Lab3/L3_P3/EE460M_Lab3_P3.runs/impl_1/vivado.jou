@@ -1,12 +1,12 @@
 #-----------------------------------------------------------
-# Vivado v2016.4 (64-bit)
-# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
-# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Fri Mar 02 19:55:20 2018
-# Process ID: 20060
-# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/impl_1
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Sep  7 22:14:54 2019
+# Process ID: 20608
+# Current directory: D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/impl_1
 # Command line: vivado.exe -log traffic_FSM.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source traffic_FSM.tcl -notrace
-# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/impl_1/traffic_FSM.vdi
-# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/impl_1\vivado.jou
+# Log file: D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/impl_1/traffic_FSM.vdi
+# Journal file: D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/impl_1\vivado.jou
 #-----------------------------------------------------------
 source traffic_FSM.tcl -notrace

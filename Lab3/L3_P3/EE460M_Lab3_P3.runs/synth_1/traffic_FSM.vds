@@ -1,30 +1,32 @@
 #-----------------------------------------------------------
-# Vivado v2016.4 (64-bit)
-# SW Build 1756540 on Mon Jan 23 19:11:23 MST 2017
-# IP Build 1755317 on Mon Jan 23 20:30:07 MST 2017
-# Start of session at: Fri Mar 02 19:54:36 2018
-# Process ID: 20164
-# Current directory: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1
+# Vivado v2019.1 (64-bit)
+# SW Build 2552052 on Fri May 24 14:49:42 MDT 2019
+# IP Build 2548770 on Fri May 24 18:01:18 MDT 2019
+# Start of session at: Sat Sep  7 21:52:15 2019
+# Process ID: 16588
+# Current directory: D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1
 # Command line: vivado.exe -log traffic_FSM.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source traffic_FSM.tcl
-# Log file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1/traffic_FSM.vds
-# Journal file: C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1\vivado.jou
+# Log file: D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1/traffic_FSM.vds
+# Journal file: D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1\vivado.jou
 #-----------------------------------------------------------
 source traffic_FSM.tcl -notrace
 Command: synth_design -top traffic_FSM -part xc7a35tcpg236-1
 Starting synth_design
 Attempting to get a license for feature 'Synthesis' and/or device 'xc7a35t'
 INFO: [Common 17-349] Got license for feature 'Synthesis' and/or device 'xc7a35t'
+INFO: [Device 21-403] Loading part xc7a35tcpg236-1
 INFO: Launching helper process for spawning children vivado processes
-INFO: Helper process launched with PID 2392 
+INFO: Helper process launched with PID 14860 
 ---------------------------------------------------------------------------------
-Starting RTL Elaboration : Time (s): cpu = 00:00:05 ; elapsed = 00:00:07 . Memory (MB): peak = 277.066 ; gain = 67.086
+Starting RTL Elaboration : Time (s): cpu = 00:00:03 ; elapsed = 00:00:04 . Memory (MB): peak = 792.684 ; gain = 178.266
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-638] synthesizing module 'traffic_FSM' [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:5]
-INFO: [Synth 8-638] synthesizing module 'slowCLK' [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:161]
-INFO: [Synth 8-256] done synthesizing module 'slowCLK' (1#1) [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:161]
-INFO: [Synth 8-256] done synthesizing module 'traffic_FSM' (2#1) [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:5]
+INFO: [Synth 8-6157] synthesizing module 'traffic_FSM' [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:5]
+INFO: [Synth 8-6157] synthesizing module 'slowCLK' [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:158]
+INFO: [Synth 8-6155] done synthesizing module 'slowCLK' (1#1) [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:158]
+WARNING: [Synth 8-6090] variable 'state' is written by both blocking and non-blocking assignments, entire logic could be removed [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:144]
+INFO: [Synth 8-6155] done synthesizing module 'traffic_FSM' (2#1) [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/sources_1/new/L3_P3.v:5]
 ---------------------------------------------------------------------------------
-Finished RTL Elaboration : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 313.445 ; gain = 103.465
+Finished RTL Elaboration : Time (s): cpu = 00:00:04 ; elapsed = 00:00:05 . Memory (MB): peak = 855.996 ; gain = 241.578
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -34,42 +36,47 @@ Report Check Netlist:
 |1     |multi_driven_nets |      0|        0|Passed |Multi driven nets |
 +------+------------------+-------+---------+-------+------------------+
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:06 ; elapsed = 00:00:08 . Memory (MB): peak = 313.445 ; gain = 103.465
+Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
-INFO: [Device 21-403] Loading part xc7a35tcpg236-1
+---------------------------------------------------------------------------------
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 855.996 ; gain = 241.578
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished RTL Optimization Phase 1 : Time (s): cpu = 00:00:04 ; elapsed = 00:00:06 . Memory (MB): peak = 855.996 ; gain = 241.578
+---------------------------------------------------------------------------------
 INFO: [Project 1-570] Preparing netlist for logic optimization
 
 Processing XDC Constraints
 Initializing timing engine
-Parsing XDC File [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]
-Finished Parsing XDC File [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]
-INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/traffic_FSM_propImpl.xdc].
+Parsing XDC File [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]
+Finished Parsing XDC File [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]
+INFO: [Project 1-236] Implementation specific constraints were found while reading constraint file [D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.srcs/constrs_1/imports/EE 460M/Basys3_Master.xdc]. These constraints will be ignored for synthesis but will be used in implementation. Impacted constraints are listed in the file [.Xil/traffic_FSM_propImpl.xdc].
 Resolution: To avoid this warning, move constraints listed in [.Xil/traffic_FSM_propImpl.xdc] to another XDC file and exclude this new file from synthesis with the used_in_synthesis property (File Properties dialog in GUI) and re-run elaboration/synthesis.
 Completed Processing XDC Constraints
 
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 957.211 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
-Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.031 . Memory (MB): peak = 610.414 ; gain = 0.000
+Constraint Validation Runtime : Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.002 . Memory (MB): peak = 957.211 ; gain = 0.000
 ---------------------------------------------------------------------------------
-Finished Constraint Validation : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Constraint Validation : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 957.211 ; gain = 342.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Loading Part and Timing Information
 ---------------------------------------------------------------------------------
 Loading part: xc7a35tcpg236-1
 ---------------------------------------------------------------------------------
-Finished Loading Part and Timing Information : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Loading Part and Timing Information : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 957.211 ; gain = 342.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Applying 'set_property' XDC Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished applying 'set_property' XDC Constraints : Time (s): cpu = 00:00:09 ; elapsed = 00:00:11 . Memory (MB): peak = 957.211 ; gain = 342.793
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5546] ROM "check" won't be mapped to RAM because it is too sparse
 ---------------------------------------------------------------------------------
-Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:15 ; elapsed = 00:00:21 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished RTL Optimization Phase 2 : Time (s): cpu = 00:00:10 ; elapsed = 00:00:12 . Memory (MB): peak = 957.211 ; gain = 342.793
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -97,7 +104,6 @@ Detailed RTL Component Info :
 	   2 Input      4 Bit        Muxes := 1     
 	  14 Input      3 Bit        Muxes := 2     
 	  14 Input      2 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Component Statistics 
 ---------------------------------------------------------------------------------
@@ -128,7 +134,6 @@ Detailed RTL Component Info :
 	                1 Bit    Registers := 1     
 +---Muxes : 
 	   2 Input     24 Bit        Muxes := 1     
-	   2 Input      1 Bit        Muxes := 1     
 ---------------------------------------------------------------------------------
 Finished RTL Hierarchical Component Statistics
 ---------------------------------------------------------------------------------
@@ -144,9 +149,9 @@ Finished Part Resource Summary
 ---------------------------------------------------------------------------------
 Start Cross Boundary and Area Optimization
 ---------------------------------------------------------------------------------
-INFO: [Synth 8-5546] ROM "s1/check" won't be mapped to RAM because it is too sparse
+Warning: Parallel synthesis criteria is not met 
 ---------------------------------------------------------------------------------
-Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:16 ; elapsed = 00:00:22 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Cross Boundary and Area Optimization : Time (s): cpu = 00:00:11 ; elapsed = 00:00:13 . Memory (MB): peak = 957.211 ; gain = 342.793
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -155,16 +160,16 @@ Report RTL Partitions:
 +-+--------------+------------+----------+
 +-+--------------+------------+----------+
 ---------------------------------------------------------------------------------
-Start Timing Optimization
----------------------------------------------------------------------------------
----------------------------------------------------------------------------------
 Start Applying XDC Timing Constraints
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Applying XDC Timing Constraints : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 957.211 ; gain = 342.793
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Timing Optimization : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 610.414 ; gain = 400.434
+Start Timing Optimization
+---------------------------------------------------------------------------------
+---------------------------------------------------------------------------------
+Finished Timing Optimization : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 968.988 ; gain = 354.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -176,7 +181,7 @@ Report RTL Partitions:
 Start Technology Mapping
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Technology Mapping : Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Technology Mapping : Time (s): cpu = 00:00:18 ; elapsed = 00:00:20 . Memory (MB): peak = 968.988 ; gain = 354.570
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -200,7 +205,7 @@ Start Final Netlist Cleanup
 Finished Final Netlist Cleanup
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished IO Insertion : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished IO Insertion : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 
 Report Check Netlist: 
@@ -213,7 +218,7 @@ Report Check Netlist:
 Start Renaming Generated Instances
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Instances : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Renaming Generated Instances : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 
 Report RTL Partitions: 
@@ -225,25 +230,25 @@ Report RTL Partitions:
 Start Rebuilding User Hierarchy
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Rebuilding User Hierarchy : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Ports
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Ports : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Renaming Generated Ports : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Handling Custom Attributes
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Handling Custom Attributes : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Handling Custom Attributes : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Renaming Generated Nets
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
-Finished Renaming Generated Nets : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Renaming Generated Nets : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 ---------------------------------------------------------------------------------
 Start Writing Synthesis Report
@@ -261,7 +266,7 @@ Report Cell Usage:
 +------+-------+------+
 |1     |BUFG   |     1|
 |2     |CARRY4 |     6|
-|3     |LUT1   |    25|
+|3     |LUT1   |     2|
 |4     |LUT2   |     4|
 |5     |LUT3   |     3|
 |6     |LUT4   |     6|
@@ -276,27 +281,31 @@ Report Instance Areas:
 +------+---------+--------+------+
 |      |Instance |Module  |Cells |
 +------+---------+--------+------+
-|1     |top      |        |   110|
-|2     |  s1     |slowCLK |    64|
+|1     |top      |        |    87|
+|2     |  s1     |slowCLK |    41|
 +------+---------+--------+------+
 ---------------------------------------------------------------------------------
-Finished Writing Synthesis Report : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Finished Writing Synthesis Report : Time (s): cpu = 00:00:20 ; elapsed = 00:00:22 . Memory (MB): peak = 975.547 ; gain = 361.129
 ---------------------------------------------------------------------------------
 Synthesis finished with 0 errors, 0 critical warnings and 0 warnings.
-Synthesis Optimization Runtime : Time (s): cpu = 00:00:16 ; elapsed = 00:00:21 . Memory (MB): peak = 610.414 ; gain = 103.465
-Synthesis Optimization Complete : Time (s): cpu = 00:00:27 ; elapsed = 00:00:34 . Memory (MB): peak = 610.414 ; gain = 400.434
+Synthesis Optimization Runtime : Time (s): cpu = 00:00:14 ; elapsed = 00:00:20 . Memory (MB): peak = 975.547 ; gain = 259.914
+Synthesis Optimization Complete : Time (s): cpu = 00:00:20 ; elapsed = 00:00:23 . Memory (MB): peak = 975.547 ; gain = 361.129
 INFO: [Project 1-571] Translating synthesized netlist
-INFO: [Netlist 29-17] Analyzing 8 Unisim elements for replacement
+INFO: [Netlist 29-17] Analyzing 6 Unisim elements for replacement
 INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
 INFO: [Project 1-570] Preparing netlist for logic optimization
 INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 985.848 ; gain = 0.000
 INFO: [Project 1-111] Unisim Transformation Summary:
 No Unisim elements were transformed.
 
 INFO: [Common 17-83] Releasing license: Synthesis
-19 Infos, 0 Warnings, 0 Critical Warnings and 0 Errors encountered.
+16 Infos, 1 Warnings, 0 Critical Warnings and 0 Errors encountered.
 synth_design completed successfully
-synth_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:33 . Memory (MB): peak = 610.414 ; gain = 400.434
-INFO: [Common 17-1381] The checkpoint 'C:/Users/Hyder/Documents/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1/traffic_FSM.dcp' has been generated.
-report_utilization: Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.036 . Memory (MB): peak = 610.414 ; gain = 0.000
-INFO: [Common 17-206] Exiting Vivado at Fri Mar 02 19:55:13 2018...
+synth_design: Time (s): cpu = 00:00:25 ; elapsed = 00:00:29 . Memory (MB): peak = 985.848 ; gain = 631.563
+Netlist sorting complete. Time (s): cpu = 00:00:00 ; elapsed = 00:00:00 . Memory (MB): peak = 985.848 ; gain = 0.000
+WARNING: [Constraints 18-5210] No constraints selected for write.
+Resolution: This message can indicate that there are no constraints for the design, or it can indicate that the used_in flags are set such that the constraints are ignored. This later case is used when running synth_design to not write synthesis constraints to the resulting checkpoint. Instead, project constraints are read when the synthesized design is opened.
+INFO: [Common 17-1381] The checkpoint 'D:/UT/SPRING 2018/EE 460M/Lab3/L3_P3/EE460M_Lab3_P3.runs/synth_1/traffic_FSM.dcp' has been generated.
+INFO: [runtcl-4] Executing : report_utilization -file traffic_FSM_utilization_synth.rpt -pb traffic_FSM_utilization_synth.pb
+INFO: [Common 17-206] Exiting Vivado at Sat Sep  7 21:52:49 2019...
